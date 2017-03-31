@@ -8,10 +8,10 @@ h1 {
 	color: white;
 }
 header {
-	background-image: url("images/the-flatiron-building.png");
+	background-image: url("../images/the-flatiron-building.png");
 	background-repeat: no-repeat;
 }
-nav {
+nav a:link, nav a:visited {
 	font-size: 18px;
 	color: white;
 }
@@ -28,7 +28,7 @@ p {
 }
 .banner {
 	color: white;
-	background-image: url("images/the-flatiron-building.png");
+	background-image: url("../images/the-flatiron-building.png");
 }
 .copy {
 	font-size: 11px;
@@ -37,4 +37,7 @@ footer {
 	color: white;
 	background-color: dimgray;
 	text-align: left;
+}
+footer a {
+	color: white;
 }
